@@ -3,6 +3,10 @@
 }
 
 .box {
+<<<<<<< HEAD
+=======
+  box-sizing: content-box;
+>>>>>>> c79790750a5e191b8256eabab78c17df4bf81008
   border: 8px solid black;
   margin: 16px;
   padding: 16px;
@@ -12,10 +16,16 @@
 
 .box1 {
   background-color: aquamarine;
+<<<<<<< HEAD
   box-sizing: content-box;
+=======
+>>>>>>> c79790750a5e191b8256eabab78c17df4bf81008
 }
 
 .box2 {
   background-color: azure;
+<<<<<<< HEAD
   box-sizing: border-box;
+=======
+>>>>>>> c79790750a5e191b8256eabab78c17df4bf81008
 }
