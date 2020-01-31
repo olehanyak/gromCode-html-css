@@ -5,7 +5,7 @@ body {
 .box {
   border: 2px solid black;
   padding: 50px;
-  width: inherit;
+  max-width: 100%;
 }
 
 .rectangle-1 {
