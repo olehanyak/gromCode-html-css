@@ -1,3 +1,8 @@
+div {
+  padding: 16px;
+}
+
+.child,
 .parent {
   border: 2px solid black;
 }
@@ -48,8 +53,8 @@
 
 .absolute-parent {
   position: absolute;
-  bottom: 20px;
-  right: 50px;
+  left: 50px;
+  right: 20px;
 }
 
 .fixed-parent {
