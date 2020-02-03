@@ -35,7 +35,7 @@ main.content {
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  position: relative;
+  position: absolute;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
   z-index: 0;
