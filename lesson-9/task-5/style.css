@@ -12,19 +12,15 @@ header.header {
   z-index: 1;
 }
 
-nav {
-  height: 40px;
-}
-
 ul.nav-list {
   margin-top: 10px;
+  margin-bottom: 12px;
 }
 
-ul.nav-list li {
+ul.nav-list .nav-item {
   color: white;
   display: inline-block;
   margin-left: 16px;
-  height: 40px;
 }
 
 main.content {
