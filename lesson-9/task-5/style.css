@@ -26,17 +26,18 @@ ul.nav-list .nav-item {
 }
 
 main.content {
+  width: 100%;
   background-color: beige;
   height: 5000px;
 }
 
 .head {
-  margin: auto;
   width: 200px;
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: 350px;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
   z-index: 0;
 }
 
