@@ -1,0 +1,32 @@
+html {
+  font-size: 24px;
+}
+
+div {
+  margin: 16px;
+  border: 1px solid burlywood;
+}
+
+.horizontal {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.horizontal span {
+  background-color: aqua;
+}
+
+.vertical {
+  height: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.vertical span {
+  background-color: coral;
+}
