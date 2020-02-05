@@ -1,10 +1,11 @@
-section {
-  margin: 32px;
-}
 
 html {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+}
+
+section {
+  margin: 32px;
 }
 
 h1 {
@@ -17,7 +18,7 @@ p {
   line-height: 28px;
 }
 
-.transform {
+.decoration {
   font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
@@ -29,6 +30,6 @@ a {
   text-decoration: none;
 }
 
-.translate {
+.translation {
   color: gray;
 }
