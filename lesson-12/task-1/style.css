@@ -4,11 +4,11 @@ html {
   font-size: 18px;
 }
 
-section {
+.container{
   margin: 32px;
 }
 
-h1 {
+.header {
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
