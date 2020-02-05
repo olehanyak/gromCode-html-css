@@ -6,7 +6,6 @@ body {
 
 .container{
   margin: 32px;
-  
 }
 
 .header {
@@ -31,5 +30,5 @@ a {
 }
 
 .translation {
-  color: gray;
+  color: grey;
 }
