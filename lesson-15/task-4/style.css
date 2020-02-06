@@ -1,21 +1,14 @@
-div {
-  display: block;
-}
-
-.image-container {
-  position: relative;
-}
 
 .image {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  position: relative;
 }
 
 .image-button {
-  text-align: center;
   display: inline-block;
-
+  text-align: center;
   line-height: 50px;
   width: 200px;
   height: 50px;
@@ -24,10 +17,10 @@ div {
   text-transform: uppercase;
   font-weight: 700;
   opacity: 0.5;
-  position: fixed;
-  top: 11.5em;
-  left: 71.5em;
-  z-index: 1;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  width: 200px;
 }
 
 .image-button:hover {
