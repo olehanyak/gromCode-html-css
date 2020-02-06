@@ -1,0 +1,16 @@
+div > div {
+  border: 1px dotted grey;
+  margin: 16px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
