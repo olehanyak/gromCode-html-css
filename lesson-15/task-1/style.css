@@ -1,4 +1,4 @@
-body {
+* {
   box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .gallery {
   display: flex;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .card {
