@@ -23,6 +23,7 @@
   opacity: 0.5;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
   position: absolute;
   top: 140.5px;
   left: calc(50% - 100px);
