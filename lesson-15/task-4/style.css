@@ -1,13 +1,17 @@
 
+
 .image {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  position: relative;
+  
 }
 
 .image-button {
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -190px;
   text-align: center;
   line-height: 50px;
   width: 200px;
@@ -17,13 +21,11 @@
   text-transform: uppercase;
   font-weight: 700;
   opacity: 0.5;
-  position: absolute;
-  top: 140px;
-  left: 50%;
-  width: 200px;
+  z-index: 1;
 }
 
 .image-button:hover {
   opacity: 1;
   cursor: pointer;
+  
 }
