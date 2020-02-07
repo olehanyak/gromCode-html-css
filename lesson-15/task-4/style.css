@@ -1,19 +1,17 @@
 .image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .image {
   display: block;
   margin: 0 auto;
   max-width: 100%;
- position: absolute;
- left: calc(50% - 250px);
-  display: flex;
-  justify-content: center;
 }
 
 .image-button {
- line-height: 50px;
+  line-height: 50px;
   width: 200px;
   height: 50px;
   background-color: bisque;
@@ -23,14 +21,12 @@
   opacity: 0.5;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
   position: absolute;
-  top: 140.5px;
+  top: calc(50% - 25px);
   left: calc(50% - 100px);
 }
 
 .image-button:hover {
   opacity: 1;
   cursor: pointer;
-  
 }
