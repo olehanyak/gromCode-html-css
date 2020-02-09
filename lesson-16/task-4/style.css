@@ -61,12 +61,10 @@ h1.form-title {
    text-transform: uppercase;
    color: white;
    border-radius: 4px;
+   padding: 0;
 }
 
-#password:focus  {
-   border: 3px solid #ff0000;
-}
 
-#email:focus {
+ #email, #password:focus  {
    border: 3px solid #ff0000;
 }
