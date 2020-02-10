@@ -20,11 +20,13 @@
       </div>
       <div>
         <label for="age">Age</label>
-        <input type="number" min="3" max="10" name="age" value="17" required />
+        <input type="number" min="3" max="10" name="age" value="17" />
       </div>
       <div>
-        <input type="checkbox" name="agree" disabled />
-        <label>Accept terms and conditions</label>
+        <label for="agree">
+          <input type="checkbox" name="agree" disabled />
+          Accept terms and conditions
+        </label>
       </div>
       <div class="choose-gender">
         <input type="radio" id="gender-male" name="gender" />
@@ -38,7 +40,8 @@
         <textarea
           maxlength="10"
           name="description"
-          placeholder="Write description..."></textarea>
+          placeholder="Write description...">
+        </textarea>
       </div>
       <div>
         <button type="submit">
