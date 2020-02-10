@@ -10,6 +10,7 @@ input[type="checkbox"] {
    width: 25px;
    height: 25px;
    background-color: #d3d3d3;
+   cursor: pointer;
    position: absolute;
    left: 0;
    top: 0;
@@ -20,6 +21,7 @@ input[type="checkbox"] {
    padding-left: 35px;
    font-size: 24px;
    position: relative;
+   
 }
 
 .checkbox input:checked + .checkmark {
