@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block {
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
+    text-align: center;
+    line-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;  
+    position: absolute;
+    animation: move 2s;
+    animation-fill-mode: forwards;
+    transition-timing-function: ease;
+}
+
+
+@keyframes move {
+    0% {
+        top: -100px;   
+    }
+    100% {
+        top: calc(50vh - 50px);
+    }
+}
