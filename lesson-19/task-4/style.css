@@ -14,13 +14,13 @@
     text-transform: uppercase;  
     position: relative;
     left: calc(50vw - 100px);
-    animation: move 2s;
+    animation: moving 2s;
     animation-fill-mode: forwards;
     transition-timing-function: ease;
 }
 
 
-@keyframes move {
+@keyframes moving {
     0% {
         top: -100px;   
     }
