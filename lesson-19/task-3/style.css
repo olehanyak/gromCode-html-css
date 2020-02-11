@@ -1,12 +1,13 @@
 .container {
     display: flex;
     justify-content: center;
-  
+    height: 100vh;
+    align-items: center;
 }
 
 
 .spinner {
-    margin-top: 50vh;
+    position: relative;
 }
 
 .spinner-text {
@@ -27,15 +28,15 @@
     height: 4px;
     border-radius: 2px;
     position: relative;
-    animation: blinking 2s infinite, moving 2s infinite;
+    animation: blinking 2s, move 2s infinite;
     animation-direction: alternate;
 }
 
 
-@keyframes moving {
+@keyframes move {
     from {
         left: 0;
-        
+        opacity: 1;
     }
     to {
         left: 70px;
@@ -44,12 +45,12 @@
 
 @keyframes blinking {
     0% {
-        opacity: 0.5;
+        opacity: 0;
     }
     50% {
         opacity: 1;
     }
     100% {
-        opacity: 0.5;
+        opacity: 0;
     }
 }
