@@ -1,12 +1,6 @@
-body {
-    display: flex;
-    justify-content: center;
-    position: relative;
 
-}
 
 .block {
-    margin: auto;
     width: 200px;
     height: 100px;
     border-radius: 10px;
@@ -18,7 +12,7 @@ body {
     font-weight: 700;
     color: white;
     text-transform: uppercase;  
-    position: absolute;
+    position: relative;
     left: calc(50vw - 100px);
     animation: move 2s;
     animation-fill-mode: forwards;
