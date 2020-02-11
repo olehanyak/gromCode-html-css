@@ -17,6 +17,7 @@
     font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s infinite;
+    transition-timing-function: linear;
 }
 
 .rect {
@@ -26,7 +27,7 @@
     height: 4px;
     border-radius: 2px;
     position: relative;
-    animation: moving 2s infinite, blinking 2s;
+    animation: blinking 2s infinite, moving 2s infinite;
     animation-direction: alternate;
 }
 
@@ -34,7 +35,7 @@
 @keyframes moving {
     from {
         left: 0;
-        opacity: 1;
+        
     }
     to {
         left: 70px;
