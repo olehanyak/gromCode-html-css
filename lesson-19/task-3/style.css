@@ -16,17 +16,18 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: moving 2s, blinking 2s infinite;
+    animation: blinking 2s infinite;
 }
 
 .rect {
     display: flex;
-    margin: auto;
     background-color: black;
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s,blinking 2s infinite;
+    position: relative;
+    animation: moving 2s infinite, blinking 2s;
+    animation-direction: alternate;
 }
 
 
