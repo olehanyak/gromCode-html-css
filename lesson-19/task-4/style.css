@@ -1,5 +1,4 @@
 body {
-    margin: auto;
     display: flex;
     justify-content: center;
 
@@ -18,7 +17,9 @@ body {
     font-weight: 700;
     color: white;
     text-transform: uppercase;  
-    position: absolute;
+    position: relative;
+   
+    
     animation: move 2s;
     animation-fill-mode: forwards;
     transition-timing-function: ease;
