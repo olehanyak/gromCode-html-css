@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    position: relative;
 
 }
 
@@ -17,9 +18,8 @@ body {
     font-weight: 700;
     color: white;
     text-transform: uppercase;  
-    position: relative;
-   
-    
+    position: absolute;
+    left: calc(50vw - 100px);
     animation: move 2s;
     animation-fill-mode: forwards;
     transition-timing-function: ease;
