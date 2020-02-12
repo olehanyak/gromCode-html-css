@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.spinner {
+    position: relative;
+}
+
 .circle {
     margin: auto;
     height: 50px;
@@ -31,22 +35,22 @@
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
 }
 
 @keyframes spin {
-    0%{
+    from {
         transform: rotate(0);
     }
-    50% {
-        transform: rotate(180deg);
-    }
-    100% {
+
+    to {
         transform: rotate(360deg);
     }
 }
