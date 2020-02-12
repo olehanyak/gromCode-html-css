@@ -18,7 +18,6 @@
     border-radius: 50%;
     margin-bottom: 8px;
     animation: spin 2s infinite linear;
-
 }
 
 .spinner-text {
@@ -30,13 +29,13 @@
 
 @keyframes blinking {
     0% {
-        opacity: 1;
-    }
-    50% {
         opacity: 0;
     }
-    100% {
+    50% {
         opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
