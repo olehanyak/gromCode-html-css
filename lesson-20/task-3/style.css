@@ -28,7 +28,7 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 2s infinite linear;
+    animation: blinking 1s infinite linear;
 }
 
 @keyframes blinking {
@@ -46,11 +46,15 @@
 }
 
 @keyframes spin {
-    from {
+    0% {
         transform: rotate(0);
     }
 
-    to {
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
         transform: rotate(360deg);
     }
 }
