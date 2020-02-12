@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    align-items: center;
+   
 }
 
 .spinner {
-    position: relative;
+    margin: auto;
 }
 
 .circle {
