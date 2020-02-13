@@ -1,102 +1,97 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    color: #555;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #555;
 }
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
-    display: flex;
-    
+  color: #fff;
+  background-image: linear-gradient(60deg, red, orange);
 }
 
 h1 {
-    background-image: linear-gradient(60deg, red, orange);
-    margin: auto;
-    color: #fff;
-    display: flex;
-    width: 100vw;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
-    display: flex;
-    flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
 }
 
 .navigation {
-    padding: 0.5em;
-    width: 20%;
+  padding: 0.5em;
+  min-width: 20%;
 }
 
 .nav-list {
-    padding: 0;
-    white-space: nowrap;
+  padding: 0;
+  white-space: nowrap;
 }
 
 .nav-list-item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    list-style-type: none;
-    padding: 0;
-    background-color: #808080;
-    margin-bottom: 0.5em;
-    height: 2em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  background-color: #808080;
+  margin-bottom: 0.5em;
+  height: 2em;
 }
 
 .nav-list-link {
-    padding-left: 0.5em;
-    color: #fff;
-    text-decoration: none;
-    overflow: hidden; 
-    text-overflow: ellipsis;
+  padding-left: 0.5em;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .section {
-    padding: 0.5em;
-    width: 80%;
-    font-size: 1.25em;
-    line-height: 1.75em;
+  padding: 0.5em;
+  max-width: 80%;
+  font-size: 1.25em;
+  line-height: 1.75em;
 }
 
 .section__header {
-    display: flex;
-    justify-content: center;
-    font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
 }
 
 .css-units {
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-size: 1.125em;
-    font-weight: 700;
-    line-height: 1.75em;
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 1.75em;
 }
 
 .news {
-    padding: 0.5em;
-    width: 20%;
+  padding: 0.5em;
+  max-width: 20%;
 }
 
 footer {
-    display: flex;
-    background-color: #e5e5e5;
-    padding: 0.5em;
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 0.5em;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
