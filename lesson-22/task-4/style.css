@@ -55,25 +55,25 @@ html {
 }
 
 @media screen and (min-width: 100px) {
-    .header {
-       visibility: visible;
+    .header-icon {
+        visibility: visible;
     }
 }
 
 @media screen and (min-width: 600px) {
-    .header {
+    .header-icon {
         visibility: hidden;
-     }
+    }
 }
 
 @media screen and (min-width: 100px) {
     .navigation {
-       visibility: hidden;
+        visibility: hidden;
     }
 }
 
 @media screen and (min-width: 600px) {
     .navigation {
         visibility: visible;
-     }
+    }
 }
