@@ -8,6 +8,7 @@
     min-height: 200px;
     display: flex;
     flex-grow: 1;
+    width: 100vw;
 }
 
 .products-list {
@@ -15,6 +16,7 @@
     min-height: 200px;
     display: flex;
     flex-grow: 1;
+    width: 100vw;
 }
 
 .news {
@@ -36,16 +38,30 @@ span {
 @media screen and (min-width: 600px) {
     .products {
         display: flex;
-        flex-grow: 2;
-        flex-direction: column;
     }
 }
 
 @media screen and (min-width: 900px) {
     .content {
         display: flex;
-        flex-grow: 2;
-        flex-direction: row;
-
     }
+
+    .navigation {
+        display: flex;
+        flex-grow: 1;
+        width: 33.333333333vw;
+    }
+    
+    .products-list {
+        display: flex;
+        flex-grow: 1;
+        width: 33.333333333vw;
+    }
+    
+    .news {
+        display: flex;
+        flex-grow: 1;
+        width: 33.333333333vw;
+    }
+    
 }
