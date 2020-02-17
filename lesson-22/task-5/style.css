@@ -69,6 +69,7 @@ h1 {
 .section {
    width: 100%;
    font-size: 1.25em;
+   display: inline-block;
 }
 
 .main-image-big {
