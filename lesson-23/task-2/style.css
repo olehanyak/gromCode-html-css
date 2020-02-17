@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box; }
 
-body {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,5 +21,12 @@ body {
   @media screen and (min-width: 1199px) {
     .square {
       background-color: #c47; } }
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .container {
+    flex-direction: column; } }
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .container {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=style.css.map */

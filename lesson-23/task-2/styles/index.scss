@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,4 +29,18 @@ body {
         background-color: #c47;
     }
 }
+
+@media screen and (max-width: $sm) and (orientation: portrait){
+    .container  {
+        flex-direction: column;
+      }
+}
+
+@media screen and (min-width: $sm) and (orientation: landscape){
+    .container  {
+      flex-direction: row;
+    }
+  }
+  
+
 
