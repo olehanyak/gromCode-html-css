@@ -90,6 +90,10 @@ ul.units-list li:nth-child(1) {
    font-weight: 700;
 }
 
+.news {
+   padding: 0.5em;
+}
+
 footer {
    display: flex;
    background-color: #e5e5e5;
