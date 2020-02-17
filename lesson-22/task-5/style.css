@@ -25,8 +25,11 @@ h1 {
 }
 
 .main {
-   padding: 0.5em;
    flex-grow: 1;
+}
+
+.navigation {
+   padding: 0.5em;
 }
 
 .nav-list {
@@ -61,6 +64,7 @@ h1 {
 }
 
 .section {
+   padding: 0.5em;
    width: 100%;
    font-size: 1.25em;
    display: inline-block;
