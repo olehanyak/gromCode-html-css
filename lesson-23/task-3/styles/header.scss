@@ -29,12 +29,6 @@ html {
     padding-right: 8px;
     color: #fff;
     text-transform: uppercase;
-
-
-    &:hover {
-        background-color: #9acd32;
-        color: #ffff00;
-    }
 }
 
 .submenu {
@@ -58,6 +52,12 @@ html {
     }
 }
 
+.menu__item.menu__item_active:hover .menu__item-text {
+color: #ffff00;
+}
+
+
 .menu__item_active:hover .submenu {
        display: block; 
 }
+
