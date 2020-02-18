@@ -33,6 +33,9 @@ html {
         background-color: #9acd32;
         color: yellow;
     }
+    &__item_active .menu__item-text {
+        color: yellow;
+    }
 }
 
 .submenu {
@@ -56,9 +59,7 @@ html {
     }
 }
 
-// .menu__item.menu__item_active:hover .menu__item-text {
-// color: #ffff00;
-// }
+
 
 
 .menu__item_active:hover .submenu {

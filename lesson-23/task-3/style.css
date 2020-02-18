@@ -26,6 +26,8 @@ html {
   .menu__item:hover {
     background-color: #9acd32;
     color: yellow; }
+  .menu__item_active .menu__item-text {
+    color: yellow; }
 
 .submenu {
   position: absolute;
