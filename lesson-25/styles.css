@@ -65,9 +65,6 @@
       line-height: 18px;
       color: #FFFFFF; }
   .price-card .footer {
-    height: 119px;
-    background: #334247;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
     display: flex;
     justify-content: center; }
     .price-card .footer__order-btn {
@@ -149,9 +146,6 @@
       line-height: 18px;
       color: #FFFFFF; }
   .business-table .footer {
-    height: 119px;
-    background: #334247;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
     display: flex;
     justify-content: center; }
     .business-table .footer__order-btn {
@@ -233,9 +227,6 @@
       line-height: 18px;
       color: #FFFFFF; }
   .webshop-table .footer {
-    height: 119px;
-    background: #334247;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
     display: flex;
     justify-content: center; }
     .webshop-table .footer__order-btn {
