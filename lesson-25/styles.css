@@ -5,7 +5,6 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
   margin-right: 15px; }
   .price-card__header {
-    height: 130px;
     display: flex;
     flex-direction: column; }
     .price-card__header_title {
@@ -88,10 +87,8 @@
   width: 380px;
   height: 770px;
   background-color: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
-  margin-right: 15px; }
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747); }
   .business-table__header {
-    height: 130px;
     display: flex;
     flex-direction: column; }
     .business-table__header_title {
@@ -174,10 +171,8 @@
   width: 380px;
   height: 770px;
   background-color: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747);
-  margin-right: 15px; }
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08747); }
   .webshop-table__header {
-    height: 130px;
     display: flex;
     flex-direction: column; }
     .webshop-table__header_title {
