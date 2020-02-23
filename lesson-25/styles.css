@@ -12,7 +12,8 @@
       line-height: 43px;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 30px; }
     .price-card__header_subtitle {
       font-weight: 300;
       font-size: 20px;
@@ -57,7 +58,7 @@
       width: 15px;
       height: 13px;
       margin-left: 22px;
-      margin-right: 21px; }
+      margin-right: 18px; }
     .price-card__group .option-list__text {
       font-weight: 300;
       font-size: 15px;
@@ -95,7 +96,8 @@
       line-height: 43px;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 30px; }
     .business-table__header_subtitle {
       font-weight: 300;
       font-size: 20px;
@@ -140,7 +142,7 @@
       width: 15px;
       height: 13px;
       margin-left: 22px;
-      margin-right: 21px; }
+      margin-right: 18px; }
     .business-table__group .option-list__text {
       font-weight: 300;
       font-size: 15px;
@@ -176,7 +178,8 @@
       line-height: 43px;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 30px; }
     .webshop-table__header_subtitle {
       font-weight: 300;
       font-size: 20px;
@@ -221,7 +224,7 @@
       width: 15px;
       height: 13px;
       margin-left: 22px;
-      margin-right: 21px; }
+      margin-right: 18px; }
     .webshop-table__group .option-list__text {
       font-weight: 300;
       font-size: 15px;
