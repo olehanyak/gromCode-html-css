@@ -1,0 +1,106 @@
+.business-table {
+  width: 380px;
+  height: 770px;
+  background-color: $fon-color-price-card;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 15px;
+
+  &__header {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+
+    &_title {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+      color: $text-color-white;
+      margin-bottom: 0;
+    }
+
+    &_subtitle {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: $text-color-white;
+      margin-top: 0;
+      margin-bottom: 36px;
+    }
+  }
+
+  &__price {
+    width: 380px;
+    height: 104px;
+    background-color: $business-price-color;
+
+    &_item {
+      margin: 0;
+      line-height: 104px;
+      height: 104px;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 104px;
+      text-align: center;
+      color: $text-color-white;
+    }
+  }
+
+  &__description {
+    margin: auto;
+    margin-bottom: 42px;
+    margin-top: 39px;
+    max-width: 327px;
+    color: $text-color-white;
+
+    &_text {
+      max-height: 36px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+
+  &__group {
+    height: 300px;
+
+    .option-list {
+      &__item {
+        color: $text-color-white;
+        height: 50px;
+        line-height: 50px;
+
+        &:nth-child(odd) {
+          background-color: $fon-color-dark-list;
+        }
+      }
+
+      &__image {
+        margin-left: 22px;
+        margin-right: 21px;
+      }
+    }
+  }
+
+  .footer {
+    height: 119px;
+    background: $fon-color-price-card;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    display: flex;
+    justify-content: center;
+
+    &__order-btn {
+      margin-top: 37px;
+      margin-bottom: 42px;
+      width: 155px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: $text-color-white;
+      background: $business-price-color;
+      border: none;
+      border-radius: 20px;
+    }
+  }
+}

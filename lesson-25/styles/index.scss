@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "basic.scss";
+@import "business.scss";
+@import "webshop.scss";
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $fon-tables;
+  }
+
+.price-page {
+      display: flex;
+}
