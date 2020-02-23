@@ -45,18 +45,26 @@
     .price-card__description_text {
       max-height: 36px;
       font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
       text-align: center; }
   .price-card__group {
     height: 300px; }
     .price-card__group .option-list__item {
-      color: #FFFFFF;
       height: 50px;
       line-height: 50px; }
       .price-card__group .option-list__item:nth-child(odd) {
         background-color: #2A3438; }
     .price-card__group .option-list__image {
+      width: 15px;
+      height: 13px;
       margin-left: 22px;
       margin-right: 21px; }
+    .price-card__group .option-list__text {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF; }
   .price-card .footer {
     height: 119px;
     background: #334247;
@@ -123,18 +131,26 @@
     .business-table__description_text {
       max-height: 36px;
       font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
       text-align: center; }
   .business-table__group {
     height: 300px; }
     .business-table__group .option-list__item {
-      color: #FFFFFF;
       height: 50px;
       line-height: 50px; }
       .business-table__group .option-list__item:nth-child(odd) {
         background-color: #2A3438; }
     .business-table__group .option-list__image {
+      width: 15px;
+      height: 13px;
       margin-left: 22px;
       margin-right: 21px; }
+    .business-table__group .option-list__text {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF; }
   .business-table .footer {
     height: 119px;
     background: #334247;
@@ -201,18 +217,26 @@
     .webshop-table__description_text {
       max-height: 36px;
       font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
       text-align: center; }
   .webshop-table__group {
     height: 300px; }
     .webshop-table__group .option-list__item {
-      color: #FFFFFF;
       height: 50px;
       line-height: 50px; }
       .webshop-table__group .option-list__item:nth-child(odd) {
         background-color: #2A3438; }
     .webshop-table__group .option-list__image {
+      width: 15px;
+      height: 13px;
       margin-left: 22px;
       margin-right: 21px; }
+    .webshop-table__group .option-list__text {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF; }
   .webshop-table .footer {
     height: 119px;
     background: #334247;
@@ -241,7 +265,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #141B1C; }
+  background-color: #000; }
 
 .price-page {
   display: flex; }
