@@ -5,10 +5,10 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 
   &__title {
-    display: flex;
-    flex-direction: column;
+    margin: 30px 139px 36px 140px;
+    text-align: center;
 
-    &_head {
+    &_top {
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
@@ -83,7 +83,7 @@
 
   &__order-btn {
     margin: 37px 113px 42px 112px;
-    width: 154px;
+    width: 156px;
     height: 40px;
     font-weight: 300;
     font-size: 15px;
