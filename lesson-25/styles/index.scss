@@ -9,14 +9,10 @@
     box-sizing: border-box;;
 }
 
-body {
+.price-page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: $fon-tables;
-  }
-
-.price-page {
-      display: flex;
 }

@@ -4,11 +4,11 @@
   background-color: $fon-color-price-card;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 
-  &__header {
+  &__title {
     display: flex;
     flex-direction: column;
 
-    &_title {
+    &_head {
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
@@ -62,17 +62,15 @@
     }
   }
 
-  &__group {
+  &__options-list {
     height: 300px;
 
-    .option-list {
-      &__item {
-        height: 50px;
-        line-height: 50px;
+    .list {
+      height: 50px;
+      line-height: 50px;
 
-        &:nth-child(odd) {
-          background-color: $fon-color-dark-list;
-        }
+      &:nth-child(odd) {
+        background-color: $fon-color-dark-list;
       }
 
       &__image {
@@ -91,11 +89,11 @@
     }
   }
 
-  .footer {
+  &__order-btn {
     display: flex;
     justify-content: center;
 
-    &__order-btn {
+    .order-btn {
       margin-top: 37px;
       margin-bottom: 42px;
       width: 155px;
@@ -110,3 +108,12 @@
     }
   }
 }
+
+// .business-table {
+//   margin-right: 15px;
+//   margin-left: 15px;
+
+// }
+// .price-card__price.business-table_price {
+//   background-color: business-price-color;
+// }
