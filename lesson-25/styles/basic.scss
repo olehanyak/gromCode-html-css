@@ -90,12 +90,7 @@
   }
 
   &__order-btn {
-    display: flex;
-    justify-content: center;
-
-    .order-btn {
-      margin-top: 37px;
-      margin-bottom: 42px;
+      margin: 37px 112px 42px 113px;
       width: 155px;
       height: 40px;
       font-size: 14px;
@@ -105,15 +100,5 @@
       background: $basic-price-color;
       border: none;
       border-radius: 20px;
-    }
   }
 }
-
-// .business-table {
-//   margin-right: 15px;
-//   margin-left: 15px;
-
-// }
-// .price-card__price.business-table_price {
-//   background-color: business-price-color;
-// }
