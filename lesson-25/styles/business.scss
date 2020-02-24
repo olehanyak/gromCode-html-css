@@ -5,6 +5,12 @@
   overflow: hidden;
 }
 
+.price-card__title_head.business-title {
+  width: 163px;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .price-card__badge {
   width: 122px;
   height: 123px;
@@ -13,7 +19,7 @@
   top: 16px;
 
   &_text {
-	width: 147px;
+    width: 147px;
     height: 25px;
     font-weight: 700;
     font-size: 14px;
