@@ -59,14 +59,15 @@
         line-height: 18px;
         color: #FFFFFF; }
   .price-card__order-btn {
-    margin: 37px 112px 42px 113px;
+    margin: 37px 113px 42px 112px;
     width: 155px;
     height: 40px;
+    font-weight: 300;
     font-size: 15px;
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    background: #5BB189;
+    background-color: #5BB189;
     border: none;
     border-radius: 20px; }
 
